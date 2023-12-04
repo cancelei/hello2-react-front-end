@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchGreeting } from '../actions/greetingActions';
+import fetchGreeting from '../actions/greetingActions';
 
 function Greeting() {
   const dispatch = useDispatch();
-  const greeting = useSelector(state => state.greeting.greeting);
+  const { greeting, error } = useSelector((state) => state.greeting);
 
   useEffect(() => {
     dispatch(fetchGreeting());
@@ -12,7 +12,12 @@ function Greeting() {
 
   return (
     <div>
-      <h1>{greeting}</h1>
+      {error ? (
+        <p>
+          Error:
+          {error.message}
+        </p>
+      ) : <h1>{greeting}</h1>}
     </div>
   );
 }
