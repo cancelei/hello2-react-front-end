@@ -170,7 +170,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cancelei/hello-rails-react2/issues).
+Feel free to check the [issues page](https://github.com/cancelei/hello2-react-front-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
