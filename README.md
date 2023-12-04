@@ -8,7 +8,6 @@
 
 # 📗 Table of Contents
 
-
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Hello Rails Front-end ](#Hello Rails Front-end)
   - [🛠 Built With ](#-built-with-)
@@ -35,8 +34,7 @@
 
 **Hello Rails Front-end** is an exercise with 2 repos, but features a random generated greeting message.
 
-Here is the link to the BACKEND in <a href="https://github.com/cancelei/hello-rails-back-end">Rails</a> 
-
+Here is the link to the BACKEND in <a href="https://github.com/cancelei/hello-rails-back-end">Rails</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -149,7 +147,6 @@ You can deploy this project using:
 - GitHub: [@cancelei](https://github.com/cancelei)
 - LinkedIn: [Glauber Bannwart](https://www.linkedin.com/in/gbannwart/)
 
-  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -158,9 +155,9 @@ You can deploy this project using:
 
 > We this project can improve, we are planning to include the next features soon:
 
-- [X] **User Interface, Controllers and Models**
+- [x] **User Interface, Controllers and Models**
 - [N/A] **API documentation**
-- [X] **View Implementation**
+- [x] **View Implementation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
